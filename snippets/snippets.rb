@@ -40,7 +40,8 @@ end
 snippet "describe" do |snippet|
   snippet.trigger = "des"
   snippet.expansion = "describe \"${1:description}\", ->
-$0"
+  $0
+"
 end
 
 snippet "expect not to have content" do |snippet|
